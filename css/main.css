@@ -18,12 +18,20 @@ main{
 
 .formWrapper{
 	background-color: #fff;
+	border-radius: 3px;
 	box-sizing: border-box;
 	padding: 20px 40px;
 }
 
+h1{
+	color: #999;
+	font-weight: 300;
+	text-align: center;
+}
+
 main p{
 	color: #fff;
+	font-weight: bold;
 	text-align: center;
 }
 
@@ -31,16 +39,41 @@ main p a{
 	color: #fff;
 }
 
+label{
+	display: block;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
 input{
 	border: 2px solid #ddd;
+	border-radius: 3px;
 	box-sizing: border-box;
 	font-size: 18px;
+	margin-bottom: 20px;
 	padding: 15px;
 	width: 100%;
 }
 
 input[type='submit']{
 	background-color: #66c371;
+	-webkit-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-o-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
 	border: 0;
 	color: #fff;
+	margin-bottom: 10px;
+}
+
+input[type='submit']:hover{
+	background-color: #32813a;
+}
+
+.forgotPwd{
+	color: #999;
+	display: inherit;
+	font-size: 12px;
+	margin-bottom: 15px;
+	text-align: center;
 }

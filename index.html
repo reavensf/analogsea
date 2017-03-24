@@ -17,11 +17,11 @@
 			<h1>Sign Up</h1>
 			<form action="/signup/" method="post">
 				<label for="email">Email</label>
-				<input type="email" name="email" id="email" placeholder="foo@bar.com">
+				<input type="email" name="email" id="email" placeholder="foo@bar.com" required>
 				<label for="password">Password</label>
-				<input type="password" name="password" id="password" placeholder="1234passw0rd">
+				<input type="password" name="password" id="password" placeholder="1234passw0rd" required>
 				<input type="submit" name="signUp" id="signUp" value="Sign Up">
-				<a href="/forgot-password/new"></a>
+				<a href="/forgot-password/new" title="Forget Password?" class="forgotPwd">Forgot Password?</a>
 			</form>
 		</section><!-- end .formWrapper -->
 		<p>Already have an account? <a href="/login" title="Log in">Log in</a></p>
