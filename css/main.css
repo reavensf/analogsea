@@ -1,0 +1,46 @@
+body{
+	background-color: #3f93e7;
+	font-family: 'Roboto';
+}
+header{
+	margin: 40px 0 20px;
+	text-align: center;
+}
+
+.logo{
+	height: 35px;
+}
+
+main{
+	margin: 0 auto;
+	width: 400px;
+}
+
+.formWrapper{
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 20px 40px;
+}
+
+main p{
+	color: #fff;
+	text-align: center;
+}
+
+main p a{
+	color: #fff;
+}
+
+input{
+	border: 2px solid #ddd;
+	box-sizing: border-box;
+	font-size: 18px;
+	padding: 15px;
+	width: 100%;
+}
+
+input[type='submit']{
+	background-color: #66c371;
+	border: 0;
+	color: #fff;
+}
