@@ -14,8 +14,8 @@
 	</header>
 	<main>
 		<section class="formWrapper">
-			<h1>Sign Up</h1>
 			<form action="/signup/" method="post">
+				<legend>Sign Up</legend>
 				<label for="email">Email</label>
 				<input type="email" name="email" id="email" placeholder="foo@bar.com" required>
 				<label for="password">Password</label>
@@ -24,7 +24,9 @@
 				<a href="/forgot-password/new" title="Forget Password?" class="forgotPwd">Forgot Password?</a>
 			</form>
 		</section><!-- end .formWrapper -->
-		<p>Already have an account? <a href="/login" title="Log in">Log in</a></p>
 	</main>
+	<footer>
+		<p>Already have an account? <a href="/login" title="Log in">Log in</a></p>
+	</footer>
 </body>
 </html>
